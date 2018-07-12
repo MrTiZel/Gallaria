@@ -1,0 +1,52 @@
+.home, .homeHover, .video, .videoHover, .images, .imagesHover, .articlesFreebies, .articlesFreebiesHover{
+	background: url(sprites.png) no-repeat;
+}
+
+.home{
+	background-position: -11px -12px ;
+	width: 27px;
+	height: 27px;
+}
+
+.homeHover{
+	background-position: -12px -60px ;
+	width: 27px;
+	height: 27px;
+}
+
+.video{
+	background-position: -60px -12px ;
+	width: 27px;
+	height: 27px;
+}
+
+.videoHover{
+	background-position: -62px -61px ;
+	width: 27px;
+	height: 27px;
+}
+
+.images{
+	background-position: -111px -12px ;
+	width: 27px;
+	height: 27px;
+}
+
+.imagesHover{
+	background-position: -112px -61px ;
+	width: 27px;
+	height: 27px;
+}
+
+.articlesFreebies{
+	background-position: -160px -13px ;
+	width: 27px;
+	height: 27px;
+}
+
+.articlesFreebiesHover{
+	background-position: -162px -60px ;
+	width: 27px;
+	height: 27px;
+}
+

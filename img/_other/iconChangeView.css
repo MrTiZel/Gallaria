@@ -1,0 +1,28 @@
+.iconChangeView1, .iconChangeViewHover1, .iconChangeView2, .iconChangeViewHover2{
+	background: url(sprites.png) no-repeat;
+}
+
+.iconChangeView1{
+	background-position: -16px -19px ;
+	width: 18px;
+	height: 18px;
+}
+
+.iconChangeViewHover1{
+	background-position: -16px -65px ;
+	width: 18px;
+	height: 18px;
+}
+
+.iconChangeView2{
+	background-position: -62px -18px ;
+	width: 19px;
+	height: 19px;
+}
+
+.iconChangeViewHover2{
+	background-position: -62px -64px ;
+	width: 19px;
+	height: 19px;
+}
+
