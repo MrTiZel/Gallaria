@@ -57,7 +57,7 @@ body {
   width: 1000px;
   height: 100%;
   margin: 0 auto;
-  padding: 0 10px 10px 10px;
+  padding: 0 10px 0 10px;
 }
 #wrapper #mainContent {
   display: -webkit-box;
@@ -75,9 +75,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  width: 286px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
@@ -88,7 +86,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #ffffff;
+  background: url(../img/BGmainAside.jpg) repeat-y;
 }
 #mainSection {
   display: -webkit-box;
