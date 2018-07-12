@@ -3,27 +3,56 @@
 // }
 
 //default color {
-@defaultColorText: #7e7d7e;
-@defaultColorHeading : #000;
+@defColorText: #7e7d7e;
+@defColorHeading : #000;
 // --BG--
-@defaultColorBGbody : ~"url(../img/bgBody.jpg)";
-@defaultColorBGmainAside : #fff;
-@defaultColorBGmainSection : ~"url(../img/bgContent.jpg)";
-@defaultColorBGlink : #6cb9d4;
+@defColorBGbody : ~"url(../img/bgBody.jpg)";
+@defColorBGmainAside : #fff;
+@defColorBGmainSection : ~"url(../img/bgContent.jpg)";
+@defColorBGlink : #6cb9d4;
 //}
 
 //default size {
-
+@defSizeWidthWrapper: 1000px;
+@defSizeWidthMainAside: 1;
+@defSizeWidthMainSection: 3;
+@defSizeHeightFooter: 75px;
 // }
 
 //mixins {
 
 // }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: @defColorBGbody repeat;
+    color: @defColorText;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+}
+
+#wrapper{
+    display: flex;
+    flex-flow: column;
+    width: @defSizeWidthWrapper;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+    
+    & #mainContent{
+        display: flex;
+        flex: 1;
+        flex-flow: row;
+    }
+}
 
 //default flexbox {
 @import "flexbox";
 // }
-
 
 //within the #ID: wrapper {
 
@@ -32,7 +61,7 @@
     @import "blocks/mainSection";
     // }
 
-@import "blocks/footer";
+@import "blocks/mainFooter";
 // }
 
 //media requests for adaptation { 

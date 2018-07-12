@@ -1,0 +1,40 @@
+.iconFacebookF, .iconFacebookFhover, .iconPinterestF, .iconPinterestFhover, .iconTwitterF, .iconTwitterFhover{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebookF{
+	background-position: -11px -12px ;
+	width: 27px;
+	height: 27px;
+}
+
+.FacebookFhover{
+	background-position: -11px -60px ;
+	width: 27px;
+	height: 27px;
+}
+
+.pinterestF{
+	background-position: -61px -12px ;
+	width: 27px;
+	height: 27px;
+}
+
+.PinterestFhover{
+	background-position: -60px -60px ;
+	width: 27px;
+	height: 27px;
+}
+
+.twitterF{
+	background-position: -110px -11px ;
+	width: 27px;
+	height: 27px;
+}
+
+.TwitterFhover{
+	background-position: -110px -60px ;
+	width: 27px;
+	height: 27px;
+}
+
