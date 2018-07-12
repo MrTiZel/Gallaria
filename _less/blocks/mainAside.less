@@ -6,4 +6,146 @@
     align-items: center;
     background: @defColorBGmainAside repeat-y;
     
+    & .logo{
+        margin: 20px 0 40px 0;
+    }
+    
+    & .mainNav{
+        display: flex;
+        flex-flow: column;
+        & ul{
+            
+            & li{
+                display: flex;
+                align-items: center;
+                width: 235px;
+                height: 45px;
+                margin: 10px 0 10px 0;
+                position: relative;
+                left: 22px;
+                
+                &:hover{
+                        background: @defColorBGlink;
+                        border-top-left-radius: 8px;
+                        border-bottom-left-radius: 8px;
+                    }
+                
+                & a{
+                    display: flex;
+                    align-items: center;
+                    width: 220px;
+                    height: 35px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    position: relative;
+                    left: 15px;
+                    
+                    & span{
+                        position: relative;
+                        left: 40px;
+                    }
+                }
+                
+                & .home{
+                    background: url("../img/iconMenu/home.png") no-repeat 0 4px;
+                    
+                    &:hover{
+                        color: #fff;
+                        background: url("../img/iconMenu/homeHover.png") no-repeat 0 4px;
+                    }
+                }
+                & .videos{
+                    background: url("../img/iconMenu/video.png") no-repeat 0 4px;
+                    
+                    &:hover{
+                        color: #fff;
+                        background: url("../img/iconMenu/videoHover.png") no-repeat 0 4px;
+                    }
+                }
+                & .images{
+                    background: url("../img/iconMenu/images.png") no-repeat 0 4px;
+                    
+                    &:hover{
+                        color: #fff;
+                        background: url("../img/iconMenu/imagesHover.png") no-repeat 0 4px;
+                    }
+                }
+                & .articles{
+                    background: url("../img/iconMenu/articles.png") no-repeat 0 4px;
+                    
+                    &:hover{
+                        color: #fff;
+                        background: url("../img/iconMenu/articlesHover.png") no-repeat 0 4px;
+                    }
+                }
+                & .freebies{
+                    background: url("../img/iconMenu/articles.png") no-repeat 0 5px;
+                    
+                    &:hover{
+                        color: #fff;
+                        background: url("../img/iconMenu/articlesHover.png") no-repeat 0 4px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .about{
+        display: flex;
+        flex-flow: column;
+        width: 200px;
+        margin: 40px 0 40px 0;
+        
+        & h2{
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        & p{
+            font-size: 16px;
+        }
+    }
+    
+    & .tags{
+        text-align: center;
+        margin-bottom: 70px;
+        
+        & h2{
+            font-size: 28px;
+            margin-bottom: 20px;
+            
+            & img{
+                width: 32px;
+                height: 28px;
+                position: relative;
+                top: 5px;
+                left: -10px;
+            }
+        }
+        
+        & ul{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            width: 180px;
+            height: 120px;
+            
+            & li{
+                background: #eaeaea;
+                border: darken(#eaeaea, 10%) 1px solid;
+                border-radius: 5px;
+                padding: 5px;
+                
+                &:hover{
+                    background: darken(#eaeaea, 10px);
+                    border: darken(#eaeaea, 20%) 1px solid;
+                }
+                
+                & a{
+                    color: @defColorText;
+                }
+            }
+        }
+    }
 }
