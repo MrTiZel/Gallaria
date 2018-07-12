@@ -155,7 +155,7 @@ body {
 #mainFooter .footerText ul li a:hover {
   text-decoration: underline;
 }
-#mainFooter .link-tfpl {
+#mainFooter .link-tfp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,23 +164,35 @@ body {
       -ms-flex-flow: row;
           flex-flow: row;
 }
-#mainFooter .link-tfpl li {
-  width: 27px;
-  height: 27px;
+#mainFooter .link-tfp li {
   margin-left: 20px;
 }
-#mainFooter .link-tfpl li .twitterF {
+#mainFooter .link-tfp li .twitterF {
+  display: block;
+  width: 27px;
+  height: 27px;
   background: url("../img/iconsFooter.png") -110px -11px;
 }
-#mainFooter .link-tfpl li .facebookF {
+#mainFooter .link-tfp li .twitterF:hover {
+  background-position: -110px -60px;
+}
+#mainFooter .link-tfp li .facebookF {
+  display: block;
   width: 27px;
   height: 27px;
   background: url("../img/iconsFooter.png") -11px -12px;
 }
-#mainFooter .link-tfpl li .pinterestF {
+#mainFooter .link-tfp li .facebookF:hover {
+  background-position: -11px -60px;
+}
+#mainFooter .link-tfp li .pinterestF {
+  display: block;
   width: 27px;
   height: 27px;
   background: url("../img/iconsFooter.png") -61px -12px;
+}
+#mainFooter .link-tfp li .pinterestF:hover {
+  background-position: -60px -60px;
 }
 /*
 другие размеры (max-width: 575px == «данный размер или меньше»)

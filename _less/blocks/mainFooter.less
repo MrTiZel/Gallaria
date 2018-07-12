@@ -42,28 +42,43 @@
         }
     }
     
-    & .link-tfpl{
+    & .link-tfp{
         display: flex;
         flex-flow: row;
         
         & li{
-            width: 27px;
-            height: 27px;
             margin-left: 20px;
             
             & .twitterF{
+                display: block;
+                width: 27px;
+                height: 27px;
                 background: url("../img/iconsFooter.png") -110px -11px;
+                
+                &:hover{
+                    background-position: -110px -60px;
+                }
                     
             }
             & .facebookF{
+                display: block;
                 width: 27px;
                 height: 27px;
                 background: url("../img/iconsFooter.png") -11px -12px;
+                
+                &:hover{
+                    background-position: -11px -60px;
+                }
             }
             & .pinterestF{
+                display: block;
                 width: 27px;
                 height: 27px;
                 background: url("../img/iconsFooter.png") -61px -12px;
+                
+                &:hover{
+                    background-position: -60px -60px;
+                }
             }
         }
     }
