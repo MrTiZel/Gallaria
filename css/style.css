@@ -134,12 +134,6 @@ body {
   position: relative;
   left: 55px;
 }
-#mainAside .mainNav ul li .activeHome {
-  color: #fff;
-  background: url("../img/iconMenu.png") -42px 0;
-  width: 219px;
-  height: 44px;
-}
 #mainAside .mainNav ul li .home {
   color: #7e7d7e;
   background: url("../img/iconMenu.png") 0 0;
@@ -152,9 +146,9 @@ body {
   width: 219px;
   height: 44px;
 }
-#mainAside .mainNav ul li .activeVideos {
+#mainAside .mainNav ul li .activeHome {
   color: #fff;
-  background: url("../img/iconMenu.png") -42px -50px;
+  background: url("../img/iconMenu.png") -42px 0;
   width: 219px;
   height: 44px;
 }
@@ -170,9 +164,9 @@ body {
   width: 219px;
   height: 44px;
 }
-#mainAside .mainNav ul li .activeImages {
+#mainAside .mainNav ul li .activeVideos {
   color: #fff;
-  background: url("../img/iconMenu.png") -42px -100px;
+  background: url("../img/iconMenu.png") -42px -50px;
   width: 219px;
   height: 44px;
 }
@@ -188,9 +182,9 @@ body {
   width: 219px;
   height: 44px;
 }
-#mainAside .mainNav ul li .activeArticles {
+#mainAside .mainNav ul li .activeImages {
   color: #fff;
-  ackground: url("../img/iconMenu.png") -42px -150px;
+  background: url("../img/iconMenu.png") -42px -100px;
   width: 219px;
   height: 44px;
 }
@@ -215,6 +209,12 @@ body {
 #mainAside .mainNav ul li .freebies:hover {
   color: #fff;
   background: url("../img/iconMenu.png") -42px -150px;
+  width: 219px;
+  height: 44px;
+}
+#mainAside .mainNav ul li .activeArticles {
+  color: #fff;
+  ackground: url("../img/iconMenu.png") -42px -150px;
   width: 219px;
   height: 44px;
 }
@@ -313,6 +313,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 5px 0 70px;
+  margin-bottom: 30px;
 }
 #mainSection .mainName-SocialNetwork .caption h1 {
   font-size: 38px;
@@ -396,18 +397,132 @@ body {
 #mainSection .mainName-SocialNetwork .link-net ul li .pinterestH:hover {
   background-position: -152.00000763px -34.00000381px;
 }
-#mainSection .mainName-SocialNetwork .mainVideo {
+#mainSection .mainVideo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-#mainSection .mainName-SocialNetwork .mainVideo .comm-video-player {
+#mainSection .mainVideo .comm-video-player {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 666px;
+  background: #eaeaea;
+  border: #d1d1d1 1px solid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+#mainSection .mainVideo .comm-video-player ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 5px;
+}
+#mainSection .mainVideo .comm-video-player ul li {
+  margin-left: 20px;
+}
+#mainSection .mainVideo .comm-video-player ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #6cb9d4;
+}
+#mainSection .mainVideo .comm-video-player ul li a .transition {
+  display: block;
+  background: url("../img/sprites.png") -4px -7px;
+  width: 15px;
+  height: 13px;
+  position: relative;
+  left: -5px;
+}
+#mainSection .mainVideo .comm-video-player ul li a .like {
+  display: block;
+  background: url("../img/sprites.png") -25px -7px;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  left: -5px;
+}
+#mainSection .mainVideo .comm-video-player ul li a .share {
+  display: block;
+  background: url("../img/sprites.png") -44px -5px;
+  width: 17px;
+  height: 18px;
+  position: relative;
+  left: -5px;
+}
+#mainSection .viewPanel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 30px 50px;
+}
+#mainSection .viewPanel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#mainSection .viewPanel ul li:first-child {
+  position: relative;
+  right: 10px;
+}
+#mainSection .viewPanel ul li .line-view {
+  display: block;
+  background: url("../img/viewIcon.png") 0 0;
+  width: 39px;
+  height: 32px;
+}
+#mainSection .viewPanel ul li .line-view:hover {
+  background-position: 0 -36px;
+}
+#mainSection .viewPanel ul li .line-view-active {
+  display: block;
+  background: url("../img/viewIcon.png") 0 -36px;
+  width: 39px;
+  height: 32px;
+}
+#mainSection .viewPanel ul li .block-view {
+  display: block;
+  background: url("../img/viewIcon.png") -43px 0;
+  width: 43px;
+  height: 32px;
+}
+#mainSection .viewPanel ul li .block-view:hover {
+  background-position: -43px -36px;
+}
+#mainSection .viewPanel ul li .block-view .block-view-active {
+  display: block;
+  background: url("../img/viewIcon.png") -43px -36px;
+  width: 43px;
+  height: 32px;
 }
 #mainFooter {
   display: -webkit-box;

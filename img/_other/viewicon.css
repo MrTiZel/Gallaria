@@ -1,0 +1,28 @@
+.viewL, .viewLhover, .viewR, .viewRhover{
+	background: url(sprites.png) no-repeat;
+}
+
+.viewL{
+	background-position: 0 0;
+	width: 39px;
+	height: 32px;
+}
+
+.viewLhover{
+	background-position: 0 -36px ;
+	width: 39px;
+	height: 32px;
+}
+
+.viewR{
+	background-position: -43px 0;
+	width: 43px;
+	height: 32px;
+}
+
+.viewRhover{
+	background-position: -43px -36px ;
+	width: 43px;
+	height: 32px;
+}
+
