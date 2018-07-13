@@ -23,73 +23,119 @@
             & li{
                 display: flex;
                 align-items: center;
-                width: 235px;
-                height: 45px;
+                width: 219px;
+                height: 44px;
                 margin: 10px 0 10px 0;
                 position: relative;
-                left: 22px;
+                left: 26px;
                 
-                &:hover{
-                        background: @defColorBGlink;
-                        border-top-left-radius: 8px;
-                        border-bottom-left-radius: 8px;
-                    }
                 
                 & a{
                     display: flex;
                     align-items: center;
-                    width: 220px;
-                    height: 35px;
+                    width: 219px;
+                    height: 44px;
                     font-size: 20px;
                     font-weight: bold;
                     text-transform: uppercase;
-                    position: relative;
-                    left: 15px;
                     
                     & span{
                         position: relative;
-                        left: 40px;
+                        left: 55px;
                     }
                 }
                 
+                & .activeHome{
+                        color: #fff;
+                        background: url("../img/iconMenu.png") -42px 0;
+                        width: 219px;
+	                    height: 44px;
+                }
                 & .home{
-                    background: url("../img/iconMenu/home.png") no-repeat 0 4px;
+                    color: @defColorText;
+                    background: url("../img/iconMenu.png") 0 0;
+                    width: 40px;
+	                height: 44px;
                     
                     &:hover{
                         color: #fff;
-                        background: url("../img/iconMenu/homeHover.png") no-repeat 0 4px;
+                        background: url("../img/iconMenu.png") -42px 0;
+                        width: 219px;
+	                    height: 44px;
+                        
                     }
+                }
+                
+                & .activeVideos{
+                        color: #fff;
+                        background: url("../img/iconMenu.png") -42px -50px;
+                        width: 219px;
+	                    height: 44px;
                 }
                 & .videos{
-                    background: url("../img/iconMenu/video.png") no-repeat 0 4px;
+                    color: @defColorText;
+                    background: url("../img/iconMenu.png") 0 -51px;
+                    width: 40px;
+	                height: 44px;
                     
                     &:hover{
                         color: #fff;
-                        background: url("../img/iconMenu/videoHover.png") no-repeat 0 4px;
+                        background: url("../img/iconMenu.png") -42px -50px;
+                        width: 219px;
+	                    height: 44px;
                     }
+                }
+                
+                & .activeImages{
+                        color: #fff;
+                        background: url("../img/iconMenu.png") -42px -100px;
+                        width: 219px;
+	                    height: 44px;
                 }
                 & .images{
-                    background: url("../img/iconMenu/images.png") no-repeat 0 4px;
+                    color: @defColorText;
+                    background: url("../img/iconMenu.png") 0 -101px;
+                    width: 40px;
+	                height: 44px;
                     
                     &:hover{
                         color: #fff;
-                        background: url("../img/iconMenu/imagesHover.png") no-repeat 0 4px;
+                        background: url("../img/iconMenu.png") -42px -100px;
+                        width: 219px;
+	                    height: 44px;
                     }
                 }
+                
+                & .activeArticles{ //Code for classes: .articles and .freebies
+                        color: #fff;
+                        ackground: url("../img/iconMenu.png") -42px -150px;
+                        width: 219px;
+	                    height: 44px;
+                }
                 & .articles{
-                    background: url("../img/iconMenu/articles.png") no-repeat 0 4px;
+                    color: @defColorText;
+                    background: url("../img/iconMenu.png") 0 -151px;
+                    width: 40px;
+	                height: 44px;
                     
                     &:hover{
                         color: #fff;
-                        background: url("../img/iconMenu/articlesHover.png") no-repeat 0 4px;
+                        background: url("../img/iconMenu.png") -42px -150px;
+                        width: 219px;
+	                    height: 44px;
                     }
                 }
                 & .freebies{
-                    background: url("../img/iconMenu/articles.png") no-repeat 0 5px;
+                    color: @defColorText;
+                    background: url("../img/iconMenu.png") 0 -151px;
+                    width: 40px;
+	                height: 44px;
                     
                     &:hover{
                         color: #fff;
-                        background: url("../img/iconMenu/articlesHover.png") no-repeat 0 4px;
+                        background: url("../img/iconMenu.png") -42px -150px;
+                        width: 219px;
+	                    height: 44px;
                     }
                 }
             }
@@ -101,6 +147,8 @@
         flex-flow: column;
         width: 200px;
         margin: 40px 0 40px 0;
+        position: relative;
+        left: 10px;
         
         & h2{
             font-size: 28px;
@@ -137,10 +185,14 @@
             height: 120px;
             
             & li{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 54px;
+                height: 26px;
                 background: #eaeaea;
                 border: darken(#eaeaea, 10%) 1px solid;
                 border-radius: 5px;
-                padding: 5px;
                 
                 &:hover{
                     background: darken(#eaeaea, 10px);

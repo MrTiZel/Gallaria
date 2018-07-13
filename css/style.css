@@ -75,7 +75,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 286px;
+  width: 270px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
@@ -111,16 +111,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 235px;
-  height: 45px;
+  width: 219px;
+  height: 44px;
   margin: 10px 0 10px 0;
   position: relative;
-  left: 22px;
-}
-#mainAside .mainNav ul li:hover {
-  background: #6cb9d4;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  left: 26px;
 }
 #mainAside .mainNav ul li a {
   display: -webkit-box;
@@ -129,52 +124,99 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 220px;
-  height: 35px;
+  width: 219px;
+  height: 44px;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  position: relative;
-  left: 15px;
 }
 #mainAside .mainNav ul li a span {
   position: relative;
-  left: 40px;
+  left: 55px;
+}
+#mainAside .mainNav ul li .activeHome {
+  color: #fff;
+  background: url("../img/iconMenu.png") -42px 0;
+  width: 219px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .home {
-  background: url("../img/iconMenu/home.png") no-repeat 0 4px;
+  color: #7e7d7e;
+  background: url("../img/iconMenu.png") 0 0;
+  width: 40px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .home:hover {
   color: #fff;
-  background: url("../img/iconMenu/homeHover.png") no-repeat 0 4px;
+  background: url("../img/iconMenu.png") -42px 0;
+  width: 219px;
+  height: 44px;
+}
+#mainAside .mainNav ul li .activeVideos {
+  color: #fff;
+  background: url("../img/iconMenu.png") -42px -50px;
+  width: 219px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .videos {
-  background: url("../img/iconMenu/video.png") no-repeat 0 4px;
+  color: #7e7d7e;
+  background: url("../img/iconMenu.png") 0 -51px;
+  width: 40px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .videos:hover {
   color: #fff;
-  background: url("../img/iconMenu/videoHover.png") no-repeat 0 4px;
+  background: url("../img/iconMenu.png") -42px -50px;
+  width: 219px;
+  height: 44px;
+}
+#mainAside .mainNav ul li .activeImages {
+  color: #fff;
+  background: url("../img/iconMenu.png") -42px -100px;
+  width: 219px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .images {
-  background: url("../img/iconMenu/images.png") no-repeat 0 4px;
+  color: #7e7d7e;
+  background: url("../img/iconMenu.png") 0 -101px;
+  width: 40px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .images:hover {
   color: #fff;
-  background: url("../img/iconMenu/imagesHover.png") no-repeat 0 4px;
+  background: url("../img/iconMenu.png") -42px -100px;
+  width: 219px;
+  height: 44px;
+}
+#mainAside .mainNav ul li .activeArticles {
+  color: #fff;
+  ackground: url("../img/iconMenu.png") -42px -150px;
+  width: 219px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .articles {
-  background: url("../img/iconMenu/articles.png") no-repeat 0 4px;
+  color: #7e7d7e;
+  background: url("../img/iconMenu.png") 0 -151px;
+  width: 40px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .articles:hover {
   color: #fff;
-  background: url("../img/iconMenu/articlesHover.png") no-repeat 0 4px;
+  background: url("../img/iconMenu.png") -42px -150px;
+  width: 219px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .freebies {
-  background: url("../img/iconMenu/articles.png") no-repeat 0 5px;
+  color: #7e7d7e;
+  background: url("../img/iconMenu.png") 0 -151px;
+  width: 40px;
+  height: 44px;
 }
 #mainAside .mainNav ul li .freebies:hover {
   color: #fff;
-  background: url("../img/iconMenu/articlesHover.png") no-repeat 0 4px;
+  background: url("../img/iconMenu.png") -42px -150px;
+  width: 219px;
+  height: 44px;
 }
 #mainAside .about {
   display: -webkit-box;
@@ -186,6 +228,8 @@ body {
           flex-flow: column;
   width: 200px;
   margin: 40px 0 40px 0;
+  position: relative;
+  left: 10px;
 }
 #mainAside .about h2 {
   font-size: 28px;
@@ -224,10 +268,20 @@ body {
   height: 120px;
 }
 #mainAside .tags ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 54px;
+  height: 26px;
   background: #eaeaea;
   border: #d1d1d1 1px solid;
   border-radius: 5px;
-  padding: 5px;
 }
 #mainAside .tags ul li:hover {
   background: #d1d1d1;
@@ -298,16 +352,6 @@ body {
       -ms-flex-flow: row;
           flex-flow: row;
 }
-#mainSection .mainName-SocialNetwork .link-net ul li:first-child {
-  background: #fff;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-#mainSection .mainName-SocialNetwork .link-net ul li:last-child {
-  background: #fff;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
 #mainSection .mainName-SocialNetwork .link-net ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -315,48 +359,55 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 25px;
-  padding: 10px;
-  background: #fff;
-}
-#mainSection .mainName-SocialNetwork .link-net ul li:hover {
-  background: #6cb9d4;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .twitterH {
   display: block;
-  background: url("../img/iconHeader.png") -14px -18px;
-  width: 25px;
-  height: 17px;
+  background: url("../img/iconHeader.png") 0 0;
+  width: 53px;
+  height: 33px;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .twitterH:hover {
-  background-position: -13px -65px;
+  background-position: 0 -33.00001144px;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .facebookH {
   display: block;
-  background: url("../img/iconHeader.png") -68px -18px;
-  width: 9px;
-  height: 18px;
+  background: url("../img/iconHeader.png") -55px 0;
+  width: 46px;
+  height: 33px;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .facebookH:hover {
-  background-position: -71px -64px;
+  background-position: -55px -33.00000381px;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .googleH {
   display: block;
-  background: url("../img/iconHeader.png") -114px -20px;
-  width: 18px;
-  height: 18px;
+  background: url("../img/iconHeader.png") -103.00000763px 0;
+  width: 46px;
+  height: 33px;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .googleH:hover {
-  background-position: -114px -65px;
+  background-position: -103.00000763px -34.00000381px;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .pinterestH {
   display: block;
-  background: url("../img/iconHeader.png") -165px -19px;
-  width: 18px;
-  height: 18px;
+  background: url("../img/iconHeader.png") -152.00000763px 0;
+  width: 45px;
+  height: 33px;
 }
 #mainSection .mainName-SocialNetwork .link-net ul li .pinterestH:hover {
-  background-position: -166px -65px;
+  background-position: -152.00000763px -34.00000381px;
+}
+#mainSection .mainName-SocialNetwork .mainVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#mainSection .mainName-SocialNetwork .mainVideo .comm-video-player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 #mainFooter {
   display: -webkit-box;
