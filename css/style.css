@@ -409,6 +409,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+#mainSection .mainVideo .video-player {
+  width: 666px;
+  height: 326px;
+}
 #mainSection .mainVideo .comm-video-player {
   display: -webkit-box;
   display: -ms-flexbox;
