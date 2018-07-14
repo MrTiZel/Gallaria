@@ -412,6 +412,7 @@ body {
 #mainSection .mainVideo .video-player {
   width: 666px;
   height: 326px;
+  margin-bottom: 5px;
 }
 #mainSection .mainVideo .comm-video-player {
   display: -webkit-box;
@@ -527,6 +528,156 @@ body {
   background: url("../img/viewIcon.png") -43px -36px;
   width: 43px;
   height: 32px;
+}
+#mainSection .mainArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#mainSection .mainArticle article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
+  background: #fff;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+#mainSection .mainArticle article .previewVideo {
+  display: block;
+  width: 258px;
+  height: 208px;
+  position: relative;
+  top: -60px;
+}
+#mainSection .mainArticle article .previewVideo .iconVideoForArticle {
+  z-index: 2;
+  display: block;
+  background: url("../img/iconVideoCon.png");
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 130px;
+  left: -30px;
+}
+#mainSection .mainArticle article .previewVideo .img-player {
+  z-index: 1;
+  width: 258px;
+  height: 208px;
+}
+#mainSection .mainArticle article .descriptionVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 340px;
+  position: relative;
+  left: 15px;
+}
+#mainSection .mainArticle article .descriptionVideo h2 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#mainSection .mainArticle article .descriptionVideo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: #e4e3e4 6px double;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+#mainSection .mainArticle article .descriptionVideo ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #7e7d7e;
+  font-size: 11px;
+  margin-right: 15px;
+}
+#mainSection .mainArticle article .descriptionVideo ul li .like,
+#mainSection .mainArticle article .descriptionVideo ul li .comment,
+#mainSection .mainArticle article .descriptionVideo ul li .time {
+  margin-right: 5px;
+}
+#mainSection .mainArticle article .descriptionVideo ul li .like {
+  display: block;
+  background: url("../img/sprites.png") -8px -34px;
+  width: 9px;
+  height: 8px;
+}
+#mainSection .mainArticle article .descriptionVideo ul li .comment {
+  display: block;
+  background: url("../img/sprites.png") -28px -34px;
+  width: 8px;
+  height: 8px;
+}
+#mainSection .mainArticle article .descriptionVideo ul li .time {
+  display: block;
+  background: url("../img/sprites.png") -48px -34px;
+  width: 8px;
+  height: 8px;
+}
+#mainSection .mainArticle article .descriptionVideo p {
+  font-size: 14px;
+}
+#mainSection .mainArticle article .viewMore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+#mainSection .mainArticle article .viewMore a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e4e3e4;
+  width: 30px;
+  height: 30px;
+  border-top-left-radius: 30px;
+}
+#mainSection .mainArticle article .viewMore a:hover {
+  background: #b1b0b1;
+}
+#mainSection .mainArticle article .viewMore a .viewArrow {
+  position: relative;
+  top: 2px;
+  left: 2px;
 }
 #mainFooter {
   display: -webkit-box;
