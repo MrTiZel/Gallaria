@@ -46,9 +46,6 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.2;
 }
-.Show-Hide {
-  display: none;
-}
 #wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -767,64 +764,3 @@ body {
 #mainFooter .link-tfp li .pinterestF:hover {
   background-position: -60px -60px;
 }
-@media screen and (max-width: 768px) {
-  .mainAside {
-    position: fixed;
-    left: -270px;
-  }
-  .Show-Hide {
-    display: block;
-    position: absolute;
-    left: 270px;
-  }
-  .Show-Hide i {
-    color: #fff;
-    font-size: 40px;
-    background: #b1b0b1;
-    padding: 10px;
-    border: #7e7d7e 2px solid;
-  }
-  .Show-Hide i:hover {
-    color: #7e7d7e;
-    background: #e4e3e4;
-  }
-  .active {
-    z-index: 10;
-    width: 270px;
-    height: 100%;
-    position: fixed;
-    left: 0;
-  }
-  .mainArticle article {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    width: 700px;
-  }
-  .mainArticle article .previewVideo {
-    margin: 0 auto;
-  }
-  .mainArticle article .descriptionVideo {
-    margin-top: 20px;
-    margin-right: 30px;
-  }
-  .mainArticle article .descriptionVideo h2 {
-    font: 40px;
-  }
-}
-/*
-другие размеры (max-width: 575px == «данный размер или меньше»)
-
-// Экстрамалые девайсы («телефоны», < 576px)
-@media (max-width: 575.98px) { ... }
-
-// Малые девайсы («ландшафтные», < 768px)
-@media (max-width: 767.98px) { ... }
-
-// Средние девайсы («таблетки», < 992px) 
-@media (max-width: 991.98px) { ... }
-
-// Большие девайсы (большие десктопы, < 1200px)
-@media (max-width: 1199.98px) { ... }
-*/
