@@ -74,7 +74,7 @@ body {
       -ms-flex-flow: row;
           flex-flow: row;
 }
-.mainAside {
+#mainAside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,10 +95,10 @@ body {
   -ms-box-shadow: 3px 0px 5px -2px rgba(0, 0, 0, 0.5);
   box-shadow: 3px 0px 5px -2px rgba(0, 0, 0, 0.5);
 }
-.mainAside .logo {
+#mainAside .logo {
   margin: 20px 0 40px 0;
 }
-.mainAside .mainNav {
+#mainAside .mainNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,7 +107,7 @@ body {
       -ms-flex-flow: column;
           flex-flow: column;
 }
-.mainAside .mainNav ul li {
+#mainAside .mainNav ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +120,7 @@ body {
   position: relative;
   left: 26px;
 }
-.mainAside .mainNav ul li a {
+#mainAside .mainNav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,95 +133,95 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
-.mainAside .mainNav ul li a span {
+#mainAside .mainNav ul li a span {
   position: relative;
   left: 55px;
 }
-.mainAside .mainNav ul li .home {
+#mainAside .mainNav ul li .home {
   color: #7e7d7e;
   background: url("../img/iconMenu.png") 0 0;
   width: 40px;
   height: 44px;
 }
-.mainAside .mainNav ul li .home:hover {
+#mainAside .mainNav ul li .home:hover {
   color: #fff;
   background: url("../img/iconMenu.png") -42px 0;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .activeHome {
+#mainAside .mainNav ul li .activeHome {
   color: #fff;
   background: url("../img/iconMenu.png") -42px 0;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .videos {
+#mainAside .mainNav ul li .videos {
   color: #7e7d7e;
   background: url("../img/iconMenu.png") 0 -51px;
   width: 40px;
   height: 44px;
 }
-.mainAside .mainNav ul li .videos:hover {
+#mainAside .mainNav ul li .videos:hover {
   color: #fff;
   background: url("../img/iconMenu.png") -42px -50px;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .activeVideos {
+#mainAside .mainNav ul li .activeVideos {
   color: #fff;
   background: url("../img/iconMenu.png") -42px -50px;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .images {
+#mainAside .mainNav ul li .images {
   color: #7e7d7e;
   background: url("../img/iconMenu.png") 0 -101px;
   width: 40px;
   height: 44px;
 }
-.mainAside .mainNav ul li .images:hover {
+#mainAside .mainNav ul li .images:hover {
   color: #fff;
   background: url("../img/iconMenu.png") -42px -100px;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .activeImages {
+#mainAside .mainNav ul li .activeImages {
   color: #fff;
   background: url("../img/iconMenu.png") -42px -100px;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .articles {
+#mainAside .mainNav ul li .articles {
   color: #7e7d7e;
   background: url("../img/iconMenu.png") 0 -151px;
   width: 40px;
   height: 44px;
 }
-.mainAside .mainNav ul li .articles:hover {
+#mainAside .mainNav ul li .articles:hover {
   color: #fff;
   background: url("../img/iconMenu.png") -42px -150px;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .freebies {
+#mainAside .mainNav ul li .freebies {
   color: #7e7d7e;
   background: url("../img/iconMenu.png") 0 -151px;
   width: 40px;
   height: 44px;
 }
-.mainAside .mainNav ul li .freebies:hover {
+#mainAside .mainNav ul li .freebies:hover {
   color: #fff;
   background: url("../img/iconMenu.png") -42px -150px;
   width: 219px;
   height: 44px;
 }
-.mainAside .mainNav ul li .activeArticles {
+#mainAside .mainNav ul li .activeArticles {
   color: #fff;
   ackground: url("../img/iconMenu.png") -42px -150px;
   width: 219px;
   height: 44px;
 }
-.mainAside .about {
+#mainAside .about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,29 +234,29 @@ body {
   position: relative;
   left: 10px;
 }
-.mainAside .about h2 {
+#mainAside .about h2 {
   font-size: 28px;
   margin-bottom: 10px;
 }
-.mainAside .about p {
+#mainAside .about p {
   font-size: 16px;
 }
-.mainAside .tags {
+#mainAside .tags {
   text-align: center;
   margin-bottom: 70px;
 }
-.mainAside .tags h2 {
+#mainAside .tags h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
-.mainAside .tags h2 img {
+#mainAside .tags h2 img {
   width: 32px;
   height: 28px;
   position: relative;
   top: 5px;
   left: -10px;
 }
-.mainAside .tags ul {
+#mainAside .tags ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,7 +270,7 @@ body {
   width: 180px;
   height: 120px;
 }
-.mainAside .tags ul li {
+#mainAside .tags ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,11 +286,11 @@ body {
   border: #d1d1d1 1px solid;
   border-radius: 5px;
 }
-.mainAside .tags ul li:hover {
+#mainAside .tags ul li:hover {
   background: #d1d1d1;
   border: #b7b7b7 1px solid;
 }
-.mainAside .tags ul li a {
+#mainAside .tags ul li a {
   color: #7e7d7e;
 }
 #mainSection {
@@ -767,7 +767,7 @@ body {
 #mainFooter .link-tfp li .pinterestF:hover {
   background-position: -60px -60px;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .mainAside {
     position: fixed;
     left: -270px;
@@ -794,6 +794,23 @@ body {
     height: 100%;
     position: fixed;
     left: 0;
+  }
+  .mainArticle article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    width: 700px;
+  }
+  .mainArticle article .previewVideo {
+    margin: 0 auto;
+  }
+  .mainArticle article .descriptionVideo {
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  .mainArticle article .descriptionVideo h2 {
+    font: 40px;
   }
 }
 /*
